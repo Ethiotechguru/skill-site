@@ -1,0 +1,7 @@
+<link rel="stylesheet" href="style.css">
+<h1>CONTACT ME</h1>
+<%for(const key in contact) {%>
+    <% if(contact.hasOwnProperty(key)){%>
+    <p><%= key%> - <%= contact[key] %></p>
+    <%}%>
+<%}%>
